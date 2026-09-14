@@ -7,12 +7,13 @@ A pure NumPy and pandas implementation of Logistic Regression for binary classif
 This project implements a complete Logistic Regression classifier using only:
 - **NumPy** - for numerical computations
 - **pandas** - for data loading and preprocessing
+- **matplotlib** - For data visualisation
 
 No scikit-learn, no TensorFlow, no PyTorch - just pure mathematical implementation of gradient descent optimization.
 
 ## Dataset
 
-This implementation uses the **Social Network Ads** dataset from Kaggle:
+This implementation uses the **logistic-regression** dataset from Kaggle:
 - **Source**: https://www.kaggle.com/datasets/diaz3z/logistic-regression-dataset
 - **Features**: Age, EstimatedSalary
 - **Target**: Purchased (0 or 1)
